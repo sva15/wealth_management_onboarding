@@ -1,0 +1,31 @@
+{
+  "_comment": "Expected money-bearing facts for the synthetic demo case. Key: document, fact_type, amount, page.",
+  "facts": [
+    {"document": "customer_declaration.pdf", "fact_type": "DECLARED_NET_WORTH", "amount": "80000000.00", "page": 1},
+    {"document": "customer_declaration.pdf", "fact_type": "DECLARED_SALE_VALUE", "amount": "52000000.00", "page": 1},
+    {"document": "customer_declaration.pdf", "fact_type": "DECLARED_INTENDED_INVESTMENT", "amount": "30000000.00", "page": 1},
+    {"document": "customer_declaration.pdf", "fact_type": "DECLARED_INVESTMENTS", "amount": "17000000.00", "page": 1},
+    {"document": "customer_declaration.pdf", "fact_type": "DECLARED_BANK_DEPOSITS", "amount": "11000000.00", "page": 1},
+    {"document": "customer_declaration.pdf", "fact_type": "DECLARED_LOAN", "amount": "9000000.00", "page": 1},
+    {"document": "customer_declaration.pdf", "fact_type": "DECLARED_PROPERTY", "amount": "61000000.00", "page": 1},
+    {"document": "sale_agreement.pdf", "fact_type": "SALE_CONSIDERATION", "amount": "52000000.00", "page": 2},
+    {"document": "bank_statement.pdf", "fact_type": "BANK_OPENING_BALANCE", "amount": "500000.00", "page": 1},
+    {"document": "bank_statement.pdf", "fact_type": "BANK_CLOSING_BALANCE", "amount": "11000000.00", "page": 1},
+    {"document": "bank_statement.pdf", "fact_type": "BANK_TRANSACTION", "amount": "50400000.00", "page": 2},
+    {"document": "bank_statement.pdf", "fact_type": "BANK_TRANSACTION", "amount": "17000000.00", "page": 2},
+    {"document": "bank_statement.pdf", "fact_type": "BANK_TRANSACTION", "amount": "6000000.00", "page": 2},
+    {"document": "bank_statement.pdf", "fact_type": "BANK_TRANSACTION", "amount": "16900000.00", "page": 2},
+    {"document": "portfolio_statement.pdf", "fact_type": "PORTFOLIO_HOLDING", "amount": "10000000.00", "page": 1},
+    {"document": "portfolio_statement.pdf", "fact_type": "PORTFOLIO_HOLDING", "amount": "7000000.00", "page": 1},
+    {"document": "portfolio_statement.pdf", "fact_type": "PORTFOLIO_TOTAL_VALUE", "amount": "17000000.00", "page": 1},
+    {"document": "consolidated_holdings_statement.pdf", "fact_type": "PORTFOLIO_HOLDING", "amount": "10000000.00", "page": 1},
+    {"document": "tax_return_summary.pdf", "fact_type": "TAX_INCOME_ITEM", "amount": "8000000.00", "page": 1},
+    {"document": "tax_return_summary.pdf", "fact_type": "TAX_INCOME_ITEM", "amount": "1500000.00", "page": 1},
+    {"document": "tax_return_summary.pdf", "fact_type": "TAX_INCOME_ITEM", "amount": "2500000.00", "page": 1},
+    {"document": "tax_return_summary.pdf", "fact_type": "TAX_TOTAL_INCOME", "amount": "12000000.00", "page": 1},
+    {"document": "tax_return_summary.pdf", "fact_type": "TAX_PAID", "amount": "3600000.00", "page": 1},
+    {"document": "loan_statement.pdf", "fact_type": "LIABILITY_SANCTIONED", "amount": "15000000.00", "page": 1},
+    {"document": "loan_statement.pdf", "fact_type": "LIABILITY_OUTSTANDING", "amount": "9000000.00", "page": 1},
+    {"document": "loan_statement.pdf", "fact_type": "LIABILITY_EMI", "amount": "240000.00", "page": 1}
+  ]
+}
