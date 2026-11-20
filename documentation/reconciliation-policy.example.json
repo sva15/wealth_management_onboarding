@@ -1,0 +1,20 @@
+{
+  "tolerance": 0,
+  "staleness_days": {
+    "BANK_CLOSING_BALANCE": 90,
+    "PORTFOLIO_HOLDING": 90,
+    "PORTFOLIO_TOTAL_VALUE": 90,
+    "LIABILITY_OUTSTANDING": 90,
+    "TAX_TOTAL_INCOME": 730
+  },
+  "difference_pct_high": 20,
+  "difference_pct_medium": 2,
+  "high_absolute_difference": 10000000,
+  "severity_overrides": {
+    "STALE_EVIDENCE": "MEDIUM"
+  },
+  "coverage_claim_types": [
+    "SOURCE_OF_WEALTH", "INVESTMENTS", "BANK_BALANCE", "PROPERTY_OWNERSHIP",
+    "BUSINESS_OWNERSHIP", "OTHER_ASSET", "LIABILITY", "ANNUAL_INCOME"
+  ]
+}
