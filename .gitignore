@@ -1,0 +1,10 @@
+.env
+data/
+*.db
+*.db-wal
+*.db-shm
+synthetic-data/demo-case/
+__pycache__/
+.pytest_cache/
+node_modules/
+dist/
